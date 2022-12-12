@@ -1,2 +1,49 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+}
 
-/* Your CSS Code here. */
+body {
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 132, 255);
+}
+
+
+
+nav a {
+
+    float: right;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: bold;
+    padding: 14px 16px;
+}
+
+nav a:hover {
+    background-color: rgb(0, 132, 255);
+}
+
+section {
+    padding: 16px;
+}
+
+aside {
+    /* background-color: lightgray; */
+    width: 500px;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
